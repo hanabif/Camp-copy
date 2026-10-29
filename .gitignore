@@ -1,1 +1,18 @@
 .venv
+
+# Python bytecode and cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments and local environment variables
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Test and coverage output
+.pytest_cache/
+.coverage
+htmlcov/
